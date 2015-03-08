@@ -1,0 +1,31 @@
+{
+  "name": "captainhook",
+  "version": "0.0.1",
+  "description": "Generic webhook endpoint written in JavaScript running pre-defined scripts based on the called URLs",
+  "author": {
+    "name": "Thomas Rasshofer",
+    "email": "hello@thomasrasshofer.com",
+    "url": "http://thomasrasshofer.com/"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rasshofer/captainhook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rasshofer/captainhook/issues"
+  },
+  "main": "./lib/captainhook.js",
+  "keywords": [
+    "captainhook"
+  ],
+  "preferGlobal": "true",
+  "bin": {
+    "captainhook": "./bin/captainhook"
+  },
+  "dependencies": {
+    "shelljs": "^0.3.0",
+    "sinodetra": "^0.0.2",
+    "yargs": "^3.4.5"
+  }
+}
